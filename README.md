@@ -1,2 +1,4 @@
-This is the first task under Codsoft where I was required to make a landing page of a website, so I chose to make a
-landing page of a Beauty salon.
+This my repository under the Codsoft internship
+Task 1 - Landing page
+Task 2 - profile
+Task 3 - calculator
