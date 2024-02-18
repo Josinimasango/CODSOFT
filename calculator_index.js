@@ -24,9 +24,9 @@ function appendToDisplay(character) {
 function calculate() {
     let result;
     try {
-        // Use eval to evaluate the expression entered in the display
+        // Uses eval to evaluate the expression entered in the display
         result = eval(display.textContent);
-        // Display the result
+        // Displays the result
         display.textContent = result;
     } catch (error) {
         // If an error occurs during evaluation, display an error message
