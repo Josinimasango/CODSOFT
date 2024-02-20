@@ -1,0 +1,365 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+#main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: 400px;
+    background-color: black;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    width: 90%;
+    margin: 0px auto;
+    padding: 30px 0px;    
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+
+}
+
+.menu li a{
+    margin: 0px 30px;
+    color: white;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+    transition: all ease 0.3s;
+
+}
+
+.nav-social a {
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+    color: #c9c9c9;
+    transition: all ease 0.3s;
+}
+
+.nav-social a {
+    color: #c9c9c9;
+}
+
+.nav-social a:first-child {
+    margin-left: 0px;
+}
+
+.menu li a:hover,
+.nav-social a:hover {
+    color: blue; 
+}
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+    max-width: 500px;
+    text-align: center;
+}
+
+.main-img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    bottom: 10px;
+}
+
+.main-content h2{
+    color: #8d94b4;
+    font-weight: 700;
+    font-size: 1,6rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+    
+}
+
+.main-content p{
+    font-size: 1.5rem;
+    font-style: italic;
+    color: wheat;
+    margin-top:  20px;
+}
+ 
+.about-me{
+    max-width: 800px;
+    width: 90%;
+    margin: 50px auto;
+    color:black;
+    align-items:center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.about-text{
+    max-width: 800px;
+    width: 90%;
+    margin: 50px auto;
+    color:black;
+    align-items:center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.about-me h2{
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: #8d94b4b4;
+}
+
+.about-me p{
+    font-size: 4rem;
+    line-height: 4.4rem;
+    color:black;
+    font-weight:800;
+    margin-top: 10px;
+
+}
+
+.about-text h2{
+    font-size: 1rem; 
+    color: black;
+    font-weight: 300;
+    margin-bottom: 20px;
+    
+}
+
+.about-text a{
+    width: 180px;
+    height: 45px;
+    display: flex;
+    background-color: #8d94b4;
+    color:black;
+    align-items:center;
+    justify-content: center;
+    text-align: center;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.about-text i{
+    margin-left: 10px;
+}
+
+.about-text a:hover{
+    border: 1px solid white;
+    background-color: paleturquoise; 
+
+}
+
+#our-services{
+    width: 100%;
+    margin: 50px auto 0px auto;
+    background-color: black;
+    padding: 50px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#services-heading{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    max-width: 1200px;
+    width: 90%;
+    margin: auto;
+}
+
+
+.services-heading h2{
+    color: #8d94b4;
+    font-size: 0.9rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.services-heading p{
+    font-size: 2.2rem;
+    color: whitesmoke;
+    max-width: 600;
+    font-weight: 200;
+    
+}
+
+#services-box-container{
+    max-width: 1200px;
+    width: 90%;
+    margin: 40px auto;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+
+}
+
+.services-box{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 100%;
+    border: 1px solid #242424;
+    padding: 30px;
+    background-color: #1a1a1a;
+}
+
+.services-box i{
+    font-size: 2rem;
+    color: #ffffff;
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #8d94b43b;
+}
+
+.services-box h3{
+    color: white;
+    font-size: 1.4rem;
+    margin-top: 20px;
+    font-weight: 600;
+
+}
+
+.services-box p{
+    color: #e7e7;
+    font-size: 0.9rem;
+    line-height: 1.4rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.services-box a{
+    height: 45px;
+    background-color: #242424;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
+    font-weight: 500;
+    border-radius: 5px;
+    margin-top: 30px;
+    padding: 0px 20px;
+}
+
+.services-box a:hover{
+    border: 1px solid white;
+    background-color: green;
+}
+
+.services-box:hover{
+    border: 1px solid #8d94b4b4;
+}
+
+.services-btn{
+    color: #c9c9c9;
+    font-size: 0.9rem;
+    margin-top: 10px;
+    text-align: center;
+    padding: 0px 10px;
+}
+
+.services-btn a{
+    color: wheat;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+#contact{
+    width: 90%;
+    max-width: 950px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 80px auto;
+    text-align: center;
+}
+
+.contact strong{
+    color: #8d94b4;
+    font-size: 0.87;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.contact h3{
+    color: black;
+    font-size: 2.37rem;
+    letter-spacing: 1px;
+}
+
+.contact p{
+    color: #252525;
+    font-weight: 500px;
+    max-width: 550px;
+}
+
+.contact a{
+    width: 200px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #252525;
+    color: white;
+    font-weight: 600;
+    margin-top: 20px;
+
+}
+
+.contact a i{
+    margin-left: 10px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 950px;
+    width: 100%;
+    margin: 70px auto 0px auto;
+    padding: 20px;
+    text-align: center;
+    border-top: center;
+    border-top: 1px solid blanchedalmond;
+
+}
